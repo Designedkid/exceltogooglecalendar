@@ -8,7 +8,7 @@ from google.auth.transport.requests import Request
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 
-CREDENTIALS_FILE = 'C:\\Users\\abdur\\PycharmProjects\\ExceltoGoogleCalendar\\client_secret_1028903853167-dj0fcj5cqqg3h100sra9k4fhqvlt8q9e.apps.googleusercontent.com.json'
+CREDENTIALS_FILE = 'C:\\Users\\abdur\\PycharmProjects\\ExceltoGoogleCalendar\\exceltogooglecalendar\\client_secret_1028903853167-dj0fcj5cqqg3h100sra9k4fhqvlt8q9e.apps.googleusercontent.com.json'
 
 def get_calendar_service():
    creds = None
